@@ -68,10 +68,11 @@
     /* card premium and prime party */
     .premium, .complete{
         width: 14rem;
-        position: absolute;
-        right: 3rem;
+        /* position: absolute; */
+        right: 1rem;
         margin-left: 2rem;
     }
+  
     .ii{
         font-size: 0.9rem;
     }

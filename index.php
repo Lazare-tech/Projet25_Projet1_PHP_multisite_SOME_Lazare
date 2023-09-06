@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="style.css">
     <link href="bootstrap/product.css" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css"> -->
 
     <title>Page d'acceuill</title>
 </head>
@@ -102,13 +102,13 @@
             </div>
         </div>
     </div>
-    <section class="container p-5 pri">
+    <section class="container pt-5 pri">
         <div class="row">
             <h5 class="pricing text-center">FORMULES</h5>
             <h1 class=" text-center formule_choice card-title"> Choisissez votre formule!!!! </h1>
         </div>
         <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
                 <div class="card premium " style="height: 30rem;">
                     <!-- <img src="images/meal-1.jpg" alt="une image ici"> -->
                     <div class="card-body" style="height: 30rem;">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-2">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-1">
                 <div class="card  complete" style="height: 30rem;">
                     <!-- <img src="images/meal-1.jpg" alt="une image ici"> -->
                     <div class="card-body">
@@ -159,10 +159,10 @@
         </div>
     </section>
     <section class="container">
-    <div class="row">
+    <div class="row pt-5">
         <h3 class="card-title text-center">Nos avantages PRIME</h3>
     </div>
-        <div class="row p-4">
+        <div class="row pt-4">
             <div class="col-lg-3 text-center">
                 <i class="fas fa-umbrella-beach fa-3x"></i>
                 <div class="card-body">

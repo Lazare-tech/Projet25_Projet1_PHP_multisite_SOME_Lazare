@@ -31,5 +31,34 @@
         <?php }?>
     </div>
 </nav>
+<!-- 
+<nav class="navbar navbar-expand-lg bg-dark ">
+  <div class="container-fluid ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+      
+        
+        <a class="py-2 d-none d-md-inline-block text-white l" href="index.php">Home</a>
+        <a class="py-2 d-none d-md-inline-block text-white l" href="blog.php">Blog</a>
+        <a class="py-2 d-none d-md-inline-block text-white l" href="about.php">About</a>
+        <a class="py-2 d-none d-md-inline-block text-white l" href="#foot">Contacts</a>
+        <?php if(isset($_SESSION['nom_utilisateur'])){
+            echo  '<a class="py-2 d-none d-md-inline-block text-white l" href="Logout.php">'.''.$_SESSION['nom_utilisateur'].'</a>';
+            echo  "<a class='py-2 d-none d-md-inline-block text-white l' href='Logout.php'>Deconnexion</a>";
+
+        }else { ?>
+                                               
+    <a class="py-2 d-none d-md-inline-block text-white l" href="register_form.php">S'inscrire</a>
+    <a class="py-2 d-none d-md-inline-block text-white l" href="login_form.php">Se Connecter</a>
+    <?php }?>
+
+      </div>
+    </div>
+  </div>
+</nav> -->
 
 
